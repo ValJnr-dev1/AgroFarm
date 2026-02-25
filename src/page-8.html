@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fertilizer Guide</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black flex justify-center items-center min-h-screen">
+
+<div class="relative w-screen h-screen bg-gray-200 overflow-hidden font-sans">
+
+  <!-- HEADER IMAGE -->
+  <div class="relative h-56">
+    <img src="assets/unsplash_2E_dT65fyxo.png"
+         class="w-full h-full object-cover">
+
+    <div class="absolute top-20 left-20">
+      <h1 class="text-4xl font-extrabold text-black">
+        Fertilizer Guide
+      </h1>
+    </div>
+  </div>
+
+  <!-- FORM AREA -->
+  <div class="px-6 py-10 space-y-7">
+
+    <!-- Crop Name -->
+    <div class="bg-green-600 text-white text-xl font-semibold 
+                rounded-xl border border-black 
+                flex justify-between items-center px-6 py-5 shadow">
+      Crop Name
+      <span class="text-black text-2xl">▼</span>
+    </div>
+
+    <!-- Crop Week -->
+    <div class="bg-green-600 text-white text-xl font-semibold 
+                rounded-xl border border-black 
+                flex justify-between items-center px-6 py-5 shadow">
+      Crop Week
+      <span class="text-black text-2xl">▼</span>
+    </div>
+
+    <!-- Area -->
+    <div class="bg-green-600 text-white text-xl font-semibold 
+                rounded-xl border border-black 
+                flex justify-between items-center px-6 py-5 shadow">
+      Area
+      <div class="bg-gray-200 w-20 h-10 rounded-sm"></div>
+    </div>
+
+    <!-- Submit -->
+    <div class="flex justify-center pt-20">
+      <button class="bg-yellow-300 text-black text-xl font-bold 
+                     px-16 py-4 rounded-xl border-4 border-black 
+                     shadow-lg hover:scale-105 transition">
+        Submit
+      </button>
+    </div>
+
+  </div>
+
+  <!-- Bottom Navigation -->
+  <div class="absolute bottom-0 w-full bg-gray-100 py-5 flex justify-around border-t">
+    <div class="text-2xl">🏠</div>
+    <div class="text-2xl">≡</div>
+    <div class="text-2xl">👤</div>
+    <div class="text-2xl">↩</div>
+  </div>
+
+</div>
+
+</body>
+</html>

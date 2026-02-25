@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgroFarm Welcome</title>
+<link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="flex justify-center items-center max-h-screen">
+
+<!-- MOBILE FRAME -->
+<div class="relative w-screen h-screen overflow-hidden">
+
+  <!-- BACKGROUND IMAGE -->
+      <div class="absolute inset-0">
+      <img 
+        src="assets/unsplash_b-0-LM0wzWM.png"
+        class="w-full h-full object-cover"
+      />
+      <!-- Dark Overlay -->
+      <div class="absolute inset-0 bg-black/40"></div>
+    </div>
+  <!-- DARK TOP OVERLAY -->
+  <div class="absolute inset-0 bg-gradient-to-b to-transparent"></div>
+
+  <!-- CONTENT WRAPPER -->
+  <div class="relative z-10 h-full flex flex-col justify-between p-6">
+
+    <!-- CENTER CONTENT -->
+    <div class="flex flex-col items-center mt-6 gap-9">
+
+      <!-- LOGO + TITLE -->
+      <div class="flex items-center gap-8 mb-10 mt-10">
+        <div class="w-16 h-16 flex items-center justify-center">
+          <img src="assets/Ellipse 3.png" alt="">
+        </div>
+        <h1 class="text-4xl font-extrabold italic text-yellow-300">
+          Welcome !
+        </h1>
+      </div>
+
+      <!-- DEALER AVATAR -->
+      <div class="w-52 h-52 rounded-full bg-white border-4 border-black flex items-center justify-center mb-8">
+        <img src="assets/Ellipse 11.png" alt="">
+      </div>
+
+      <!-- DEALER LABEL -->
+      <div class="bg-[#f2c68b] text-black text-2xl font-bold px-12 py-3 rounded-xl border-4 border-black shadow-lg mb-12">
+        Farmer
+      </div>
+
+      <!-- GET STARTED BUTTON -->
+      <button class="bg-yellow-300 text-black text-xl font-semibold px-12 py-4 rounded-full shadow-lg hover:scale-105 transition">
+        <a href="register.html" class="no-underline">Get Started &nbsp; »»</a>
+      </button>
+
+    </div>
+
+    <!-- HOME INDICATOR -->
+    <div class="flex justify-center pb-3">
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
