@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgroFarm - Discover</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="m-0 p-0">
+
+  <!-- Mobile Screen Container -->
+  <div class="relative w-screen h-screen overflow-hidden">
+
+    <!-- Background Image -->
+    <div class="absolute inset-0">
+      <img 
+        src="https://images.unsplash.com/photo-1500382017468-9049fed747ef"
+        class="w-full h-full object-cover"
+      />
+      <!-- Dark overlay -->
+      <div class="absolute inset-0 bg-black/40"></div>
+    </div>
+
+    <!-- Content Layer -->
+    <div class="relative z-10 flex flex-col justify-between items-center h-full text-white px-8 py-10 text-center">
+
+      <!-- Top Spacer -->
+      <div></div>
+
+      <!-- Logo Section -->
+      <div class="mt-6 flex flex-col items-center">
+        <div class="w-52 h-52 bg-green-900 rounded-full border-8 border-white flex flex-col items-center justify-center shadow-2xl">
+
+          <!-- Leaf Icon -->
+          <svg width="70" height="70" viewBox="0 0 24 24" fill="white">
+            <path d="M12 2C8 6 6 9 6 13a6 6 0 0012 0c0-4-2-7-6-11z"/>
+          </svg>
+
+          <h2 class="text-3xl font-semibold mt-3">AgroFarm</h2>
+        </div>
+      </div>
+
+      <!-- Description Text -->
+      <div class="px-4">
+        <p class="text-lg leading-relaxed font-medium">
+          Explore our vibrant marketplace
+          where farmers and dealers converge
+          to exchange a diverse array of
+          agricultural products.
+        </p>
+      </div>
+
+      <!-- Buttons Section -->
+      <div class="w-full flex justify-between items-center mb-8">
+
+        <!-- Discover More Button -->
+        <button class="bg-green-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:bg-green-700 transition">
+          <a href="discover-more.html" class="text-white no-underline">Discover More</a>
+        </button>
+
+        <!-- Skip Button -->
+        <button class="bg-yellow-400 text-black px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:bg-yellow-300 transition">
+          <a href="login-page.html" class="text-black no-underline">Skip &nbsp; >></a>
+        </button>
+
+      </div>
+
+      <!-- iOS Home Indicator -->
+      <div class="w-28 h-1.5 mb-8"></div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

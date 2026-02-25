@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgroFarm Login</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="m-0 p-0">
+
+  <!-- Mobile Screen Container -->
+  <div class="relative w-screen h-screen overflow-hidden">
+
+    <!-- Background -->
+    <div class="absolute inset-0">
+      <img 
+        src="assets/unsplash_b-0-LM0wzWM.png"
+        class="w-full h-full object-cover"
+      />
+      <!-- Dark Overlay -->
+      <div class="absolute inset-0 bg-black/40"></div>
+    </div>
+
+    <!-- Content -->
+    <div class="relative z-10 flex flex-col items-center h-full text-white text-center px-6 py-10">
+
+      <!-- Logo -->
+      <div class="mt-10">
+        <div class="w-48 h-48  flex flex-col items-center justify-center">
+          
+          <!-- Leaf Icon -->
+           <img src="assets/Ellipse 3.png" alt="">
+        </div>
+      </div>
+
+      <!-- Account Links -->
+      <div class="mt-10 space-y-3">
+        <p class="text-lg">
+          Already have an account ?
+        </p>
+
+        <p class="text-yellow-400 font-semibold cursor-pointer">
+          Login AgroFarm
+        </p>
+
+        <p class="text-lg mt-4">
+          Don’t have account ?
+          <span class="text-yellow-400 font-semibold cursor-pointer">
+            <a href="select-user.html">Register Now</a>
+          </span>
+        </p>
+      </div>
+
+      <!-- Input Field -->
+      <div class="w-full mt-10">
+        <div class="flex items-center bg-gray-200 rounded-full px-6 py-4">
+          <input 
+            type="text" 
+            placeholder="User Name"
+            class="bg-transparent w-full text-gray-700 placeholder-gray-600 outline-none text-lg"
+          />
+
+          <!-- User Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               class="h-6 w-6 text-gray-700"
+               fill="none" 
+               viewBox="0 0 24 24" 
+               stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+              d="M5.121 17.804A9 9 0 1118.88 17.8M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Login Button -->
+      <div class="mt-12">
+        <button class="bg-yellow-400 text-black font-semibold px-16 py-4 rounded-full shadow-lg flex items-center gap-3 text-lg hover:scale-105 transition">
+          Login
+          <span>➜</span>
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
